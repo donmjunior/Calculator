@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0DN5YC841aetwUIPPQSQDQHEFf6Wvv0Gl+EsWiR5IenIzfjEU/b77/bzjFu5qk+MRfUR71lwJe0w7p/a+mWEzw==",
+  "success": true,
+  "projectFilePath": "/home/donm/VSCodeProjects/DonmProjects/Calculator/Calculator.csproj",
+  "expectedPackageFiles": [
+    "/home/donm/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
