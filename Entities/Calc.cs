@@ -6,8 +6,16 @@ namespace Calculator.Entities{
     Esta classe é basicamente dispensável por já existir na biblioteca da linguagem C#
     a classe Math() que realiza as mesmas operações, porém, como dito na introdução da
     classe Program.cs, o programa inteiro será apenas para prática do uso da linguagem.
+    Mas, independente de quais códigos serão utilizados, o intuito será criar uma
+    calculadora avançada e a mais completa possível com interface bem intuitiva e, de
+    preferência, bem didática e auto explicativa, de modo que qualquer leigo consiga
+    entender as funções disponíveis pelo dispositivo.
     */
     class Calc{
+
+        /*Início de variáveis essenciais e constantes matemáticas
+        */
+        public static double PI = 3.14159265358979323846264338327950288;
 
         //Propriedades que receberão os valores passados pelo usuário
         public double X { get; set; }
