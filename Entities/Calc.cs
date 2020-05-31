@@ -12,8 +12,7 @@ namespace Calculator.Entities{
         double subtrai = 0.0;
         double multiplica = 0.0;
         double divide = 0.0;
-        double potencia = 0.0;
-        double raiz = 0.0;
+        //double raiz = 0.0;
 
         //Propriedades que receberão os valores passados pelo usuário
         public double X { get; set; }
