@@ -1,3 +1,5 @@
+using System;
+
 namespace Calculator.Entities{
 
     /*
@@ -6,13 +8,6 @@ namespace Calculator.Entities{
     classe Program.cs, o programa inteiro será apenas para prática do uso da linguagem.
     */
     class Calc{
-
-        //Variáveis essenciais para retornos de resultados das funções
-        double soma = 0.0;
-        double subtrai = 0.0;
-        double multiplica = 0.0;
-        double divide = 0.0;
-        //double raiz = 0.0;
 
         //Propriedades que receberão os valores passados pelo usuário
         public double X { get; set; }
@@ -27,22 +22,22 @@ namespace Calculator.Entities{
 
         //Método que retorna a soma entre x e y
         public double Soma(double x, double y){
-            return soma = x + y;
+            return x + y;
         }
 
         //Método que retorna a subtração entre x e y
         public double Subtrai(double x, double y){
-            return subtrai = x - y;
+            return x - y;
         }
 
         //Método que retorna a multiplicação entre x e y
         public double Multiplica(double x, double y){
-            return multiplica = x * y;
+            return x * y;
         }
 
         //Método que retorna a divisão entre x e y
         public double Divide(double x, double y){
-            return divide = x / y;
+            return x / y;
         }
 
         //Método que retorna a potência de x elevado à y
@@ -69,5 +64,18 @@ namespace Calculator.Entities{
         que calcule a raiz de qualquer valor por qualquer radicando sem que seja necessário
         a utilização da função Math.Sqrt().
         */
+        public double RaizQuadrada(double d){
+            /*Esta funcão será temporária até que eu descubra o código fonte ou uma fórmula
+            exata para calcular tanto a raiz quadrada quanto de qualquer outro radicando
+            */
+            return Math.Sqrt(d);
+        }
+
+        /*Este método também será temporário até o momento que eu conseguir um código 
+        que calcula a raiz de um radical por qualquer radicando
+        */
+        public double RaizCubica(double d){
+            return Math.Cbrt(d);
+        }
     }
 }

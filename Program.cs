@@ -11,7 +11,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine();
+            System.Console.WriteLine("Funcionando");
         }
     }
 }
